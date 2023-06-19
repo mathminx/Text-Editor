@@ -50,19 +50,20 @@ When you enter content and subsequently click off of the DOM window, your note i
 
 To install the application, click on the `Install` button. 
 
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/5395b630-484d-4231-b098-ce6790875965)
+
+
+Click `Install` button to continue with the installation, or click cancel to return to the browser. 
+
 ![image](https://github.com/mathminx/Text-Editor/assets/122234007/a91c7360-44a7-484c-b1a0-3a992ad3847c)
 
 
-An icon is created on your desktop.
+When the application is installed, an icon is created on your desktop.
 
 ![image](https://github.com/mathminx/Text-Editor/assets/122234007/8df86500-cdb4-4a0d-bd08-7bd147348204)
 
 
-
-load web application
-have a registered service worker using workbox
-register a service worker
-static assets pre cached upon loading along with subsequent pages and static assets
+You can now use the text editor offline. 
 
 
 ## Mock-Up
