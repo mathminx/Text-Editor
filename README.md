@@ -48,12 +48,12 @@ When you enter content and subsequently click off of the DOM window, your note i
 ![image](https://github.com/mathminx/Text-Editor/assets/122234007/9bac455a-b373-4abb-846c-2622eb833e77)
 
 
-To install the application, click on the `Install` button. 
+To install the application on your device, click on the `Install` button. 
 
 ![image](https://github.com/mathminx/Text-Editor/assets/122234007/5395b630-484d-4231-b098-ce6790875965)
 
 
-Click `Install` button to continue with the installation, or click cancel to return to the browser. 
+Click the `Install` button in the alert to continue with the installation, or click cancel to return to the browser. 
 
 ![image](https://github.com/mathminx/Text-Editor/assets/122234007/a91c7360-44a7-484c-b1a0-3a992ad3847c)
 
