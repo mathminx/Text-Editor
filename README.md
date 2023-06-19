@@ -1,52 +1,56 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# Text Editor PWA
 
-## Your Task
+This text editor is a single-page application that allows users to create notes or code snippets that can be retrieved for later use. This PWA evolved from an existing application to which data retrieval and storage methods were added. It automatically saves content inside the text editor when the DOM window is unfocused. The application meets the criteria for a progressive web application (PWA):  It can be run in a browser, but can also be installed on a user's device where it functions without an internet connection (i.e. offline). 
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+Data is stored in an IndexedDB database augmented by `idb`, a lightweight wrapper around the IndexedDB API that features a number of useful methods for data handling. The code was bundled with webpack, and includes both a service worker (created with workbox) that caches static assets, and a `manifest.json` generated using the `WebpackPwaManifest` plug-in. The application also uses Babel, a JavaScript compiler that takes code written in the latest version(s) of JavaScript and transpiles it for down-compatability with most browsers.
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+## Table of Contents
 
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
 
-## User Story
 
-```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-```
+## Installation
 
-## Acceptance Criteria
+The application is deployed to Herokuat the following URL: 
 
-```md
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
-```
+(https://afternoon-peak-85949-3ff0e5acd962.herokuapp.com/)
+
+
+To install the application locally, do the following:
+  
+* Run `npm install` to install the dependencies. 
+* Run `npm start` to invoke the application.
+* Navigate to `Localhost:3000` in a browser window.
+
+
+## Usage
+
+open application in editor
+see a client server folder structure
+`npm run start` from the root directory
+application starts up the backend and serves the client
+run the text editor application from a terminal
+JavaScript files have been bundled using webpack
+run webpack plugins
+have a generated HTML file, service worker, and a manifest file
+use next-gen JavaScript in my application
+text editor still functions in the browser without errors
+open the text editor
+IndexedDB has immediately creates a database storage
+enter content and subsequently click off of the DOM window
+content in the text editor has been saved with IndexedDB
+reopen the text editor after closing it
+the content in the text editor has been retrieved from IndexedDB
+click on the Install button
+ownload web application as an icon on desktop
+load web application
+have a registered service worker using workbox
+register a service worker
+static assets pre cached upon loading along with subsequent pages and static assets
+
 
 ## Mock-Up
 
@@ -66,77 +70,17 @@ The following image shows the application's IndexedDB storage:
 
 ![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## License
 
-This Challenge is graded based on the following criteria:
+ This project is licensed under the terms of the MIT license.
 
-### Technical Acceptance Criteria: 40%
+ ![License: ](https://img.shields.io/badge/License-MIT-blueviolet.svg)
 
-* Satisfies all of the above acceptance criteria plus the following:
 
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
+## Badges
 
-  * The application works without an internet connection
+![alt text](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)  ![alt text]( https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)  ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)  ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)  ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)  ![Handlebars.js](https://a11ybadges.com/badge?logo=handlebarsdotjs)  ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
-  * Automatically saves content inside the text editor when the DOM window is unfocused
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  ![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white)
 
-  * Bundled with webpack
-
-  * Create a service worker with workbox that Caches static assets
-
-  * The application should use babel in order to use async / await
-
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
-
-  * Can be installed as a Progressive Web Application
-
-### Deployment: 32%
-
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
