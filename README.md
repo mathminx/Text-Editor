@@ -31,6 +31,19 @@ To install the application locally, do the following:
 * Navigate to `Localhost:3000` in a browser window.
 
 
+The following image shows the application's `manifest.json` file:
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/3aeab8ed-b8f2-4023-ad36-9ae02d138713)
+
+The following image shows the application's registered service worker:
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/bd5d7934-b9b9-4077-b66a-62defde26f05)
+
+The following image shows the application's IndexedDB storage:
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/c0c93407-a244-4023-93f7-91411680e499)
+
+
 ## Usage
 
 When you open the text editor for the first time, the application's single page is presented.
@@ -64,25 +77,6 @@ When the application is installed, an icon is created on your desktop.
 
 
 You can now use the text editor offline. 
-
-
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
-
-The following image shows the application's `manifest.json` file:
-
-![image](https://github.com/mathminx/Text-Editor/assets/122234007/3aeab8ed-b8f2-4023-ad36-9ae02d138713)
-
-The following image shows the application's registered service worker:
-
-![image](https://github.com/mathminx/Text-Editor/assets/122234007/bd5d7934-b9b9-4077-b66a-62defde26f05)
-
-The following image shows the application's IndexedDB storage:
-
-![image](https://github.com/mathminx/Text-Editor/assets/122234007/c0c93407-a244-4023-93f7-91411680e499)
 
 
 ## License
