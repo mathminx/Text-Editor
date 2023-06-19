@@ -65,7 +65,7 @@ The following animation demonstrates the application functionality:
 
 The following image shows the application's `manifest.json` file:
 
-![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/3aeab8ed-b8f2-4023-ad36-9ae02d138713)
 
 The following image shows the application's registered service worker:
 
