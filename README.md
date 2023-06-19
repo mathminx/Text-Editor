@@ -1,4 +1,4 @@
-# Text Editor: A Progressive Web Application
+# Just Another Text Editor: A Progressive Web Application
 
 ![Screenshot 2023-06-19 130733](https://github.com/mathminx/Text-Editor/assets/122234007/b0880b9a-959d-47f5-8a71-22e4ee354dab)
 
