@@ -33,24 +33,37 @@ To install the application locally, do the following:
 
 ## Usage
 
-open application in editor
-see a client server folder structure
-`npm run start` from the root directory
-application starts up the backend and serves the client
-run the text editor application from a terminal
-JavaScript files have been bundled using webpack
-run webpack plugins
-have a generated HTML file, service worker, and a manifest file
-use next-gen JavaScript in my application
-text editor still functions in the browser without errors
-open the text editor
-IndexedDB has immediately creates a database storage
-enter content and subsequently click off of the DOM window
-content in the text editor has been saved with IndexedDB
-reopen the text editor after closing it
-the content in the text editor has been retrieved from IndexedDB
-click on the Install button
-ownload web application as an icon on desktop
+When you open the text editor for the first time, you will be presented with the application's single page.
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/e8fc0fdf-ae52-4230-8c25-a60299a87aca)
+
+
+IndexedDB has immediately created database storage.  
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/cd748c83-e25c-4d0b-9a4b-72a7a56219b4)
+
+
+Enter content and subsequently click off of the DOM window to save the note with IndexedDB.
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/4a98cfc1-bcf1-4e0c-92c6-c5a9520d65b2)
+
+
+If you reopen the text editor after closing it, the content in the text editor is retrieved and displayed. 
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/9bac455a-b373-4abb-846c-2622eb833e77)
+
+
+Click on the `Install` button to download the application. 
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/a91c7360-44a7-484c-b1a0-3a992ad3847c)
+
+
+An icon is created on your desktop.
+
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/8df86500-cdb4-4a0d-bd08-7bd147348204)
+
+
+
 load web application
 have a registered service worker using workbox
 register a service worker
