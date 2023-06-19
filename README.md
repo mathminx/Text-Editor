@@ -9,6 +9,7 @@ This text editor is a single-page application that allows users to create notes 
 
 Data is stored in an IndexedDB database augmented by `idb`, a lightweight wrapper around the IndexedDB API that features a number of useful methods for data handling. The code was bundled with webpack, and includes both a service worker (created with workbox) that caches static assets, and a `manifest.json` generated using the `WebpackPwaManifest` plug-in. The application also uses Babel, a JavaScript compiler that takes code written in the latest version(s) of JavaScript and transpiles it for down-compatability with most browsers.
 
+---
 
 ## Table of Contents
 
@@ -16,6 +17,7 @@ Data is stored in an IndexedDB database augmented by `idb`, a lightweight wrappe
 * [Usage](#usage)
 * [License](#license)
 
+---
 
 ## Installation
 
@@ -30,6 +32,7 @@ To install the application locally, do the following:
 * Run `npm start` to invoke the application.
 * Navigate to `Localhost:3000` in a browser window.
 
+---
 
 The following image shows the application's `manifest.json` file:
 
@@ -43,6 +46,7 @@ The following image shows the application's IndexedDB storage:
 
 ![image](https://github.com/mathminx/Text-Editor/assets/122234007/c0c93407-a244-4023-93f7-91411680e499)
 
+---
 
 ## Usage
 
@@ -68,7 +72,7 @@ To install the application on your device, click on the `Install` button.
 
 Click the `Install` button in the alert to continue with the installation, or click cancel to return to the browser. 
 
-![image](https://github.com/mathminx/Text-Editor/assets/122234007/a91c7360-44a7-484c-b1a0-3a992ad3847c)
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/656ff199-b667-4849-b13b-653e324895cd)
 
 
 When the application is installed, an icon is created on your desktop.
@@ -78,6 +82,7 @@ When the application is installed, an icon is created on your desktop.
 
 You can now use the text editor offline. 
 
+---
 
 ## License
 
@@ -85,6 +90,7 @@ You can now use the text editor offline.
 
  ![License: ](https://img.shields.io/badge/License-MIT-blueviolet.svg)
 
+--- 
 
 ## Badges
 
