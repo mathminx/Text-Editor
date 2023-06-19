@@ -43,12 +43,7 @@ You are able to see that IndexedDB immediately created database storage.
 ![image](https://github.com/mathminx/Text-Editor/assets/122234007/cd748c83-e25c-4d0b-9a4b-72a7a56219b4)
 
 
-When you enter content and subsequently click off of the DOM window, your note is saved with IndexedDB.
-
-![image](https://github.com/mathminx/Text-Editor/assets/122234007/4a98cfc1-bcf1-4e0c-92c6-c5a9520d65b2)
-
-
-When you reopen the text editor after closing it, your saved content in the text editor is retrieved and displayed. 
+When you enter content and subsequently click off of the DOM window, your note is saved with IndexedDB. When you reopen the text editor after closing it, your saved content is retrieved and displayed. 
 
 ![image](https://github.com/mathminx/Text-Editor/assets/122234007/9bac455a-b373-4abb-846c-2622eb833e77)
 
