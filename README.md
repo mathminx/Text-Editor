@@ -69,11 +69,11 @@ The following image shows the application's `manifest.json` file:
 
 The following image shows the application's registered service worker:
 
-![Demonstration of the finished Module 19 Challenge with a registered service worker in the browser.](./Assets/02-service-worker.png)
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/bd5d7934-b9b9-4077-b66a-62defde26f05)
 
 The following image shows the application's IndexedDB storage:
 
-![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+![image](https://github.com/mathminx/Text-Editor/assets/122234007/c0c93407-a244-4023-93f7-91411680e499)
 
 
 ## License
