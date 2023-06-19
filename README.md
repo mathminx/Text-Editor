@@ -1,4 +1,9 @@
-# Text Editor PWA
+# Text Editor: A Progressive Web Application
+
+![Screenshot 2023-06-19 130733](https://github.com/mathminx/Text-Editor/assets/122234007/b0880b9a-959d-47f5-8a71-22e4ee354dab)
+
+
+## Description
 
 This text editor is a single-page application that allows users to create notes or code snippets that can be retrieved for later use. This PWA evolved from an existing application to which data retrieval and storage methods were added. It automatically saves content inside the text editor when the DOM window is unfocused. The application meets the criteria for a progressive web application (PWA):  It can be run in a browser, but can also be installed on a user's device where it functions without an internet connection (i.e. offline). 
 
