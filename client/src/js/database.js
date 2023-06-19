@@ -22,7 +22,7 @@ export const putDb = async (content) => {
     console.log("Content added to database!", result);
   }
   catch (err) {
-  console.error("putDb unsuccessful", err);
+  console.error("Unable to add content to the database!", err);
   }
 };
 
@@ -34,10 +34,13 @@ export const getDb = async () => {
     const store = tx.objectStore('jate');
     const request = store.getAll();
     const result = await request;
-    console.log('result.value', result);
+    if (!result) {
+      console.log("No data to retrieve!")
+      return;
+    }
   }
   catch (err) {
-    console.error('getDb unsuccessful', err);
+    console.error('Unable to retrieve data!', err);
   }
 };
 
